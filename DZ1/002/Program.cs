@@ -1,18 +1,22 @@
-﻿Console.WriteLine("Введите 3 числа:");
-int num_1 = int.Parse(Console.ReadLine() ?? "");
-int num_2 = int.Parse(Console.ReadLine() ?? "");
-int num_3 = int.Parse(Console.ReadLine() ?? "");
+﻿Console.WriteLine("Введите первое число: ");
+int number_1 = int.Parse(Console.ReadLine() ?? "");
 
-int max = num_1;
+Console.WriteLine("Введите второе число: ");
+int number_2 = int.Parse(Console.ReadLine() ?? "");
 
-if (num_2 > max)
+Console.WriteLine("Введите третье число: ");
+int number_3 = int.Parse(Console.ReadLine() ?? "");
+
+int max = number_1;
+
+if (number_2 > max)
 {
-    max = num_2;
+    max = number_2;
 }
 
-if (num_3 > max)
+if (number_3 > max)
 {
-    max = num_3;
+    max = number_3;
 }
 
-Console.WriteLine("Наибольшее из введённых чисел -> " + max);
+Console.WriteLine($"{number_1}, {number_2}, {number_3} -> {max}");

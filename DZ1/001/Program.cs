@@ -4,12 +4,11 @@ int number_A = int.Parse(Console.ReadLine() ?? "");
 Console.WriteLine("Введите второе число: ");
 int number_B = int.Parse(Console.ReadLine() ?? "");
 
-if (number_A > number_B)
+int max = number_A;
 
+if (number_B > max)
 {
-    Console.WriteLine($"{number_A} > {number_B}");
+    max = number_B;
 }
-else
-{
-    Console.WriteLine($"{number_B} > {number_A}");
-}
+
+Console.WriteLine($"a = {number_A}, b = {number_B}, -> {max}");
