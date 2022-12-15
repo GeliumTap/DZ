@@ -20,3 +20,5 @@ if (number_3 > max)
 }
 
 Console.WriteLine($"{number_1}, {number_2}, {number_3} -> {max}");
+
+//cool!
