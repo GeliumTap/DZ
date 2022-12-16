@@ -13,3 +13,18 @@ D:\DZ\DZ1\003\obj\Debug\net7.0\refint\003.dll
 D:\DZ\DZ1\003\obj\Debug\net7.0\003.pdb
 D:\DZ\DZ1\003\obj\Debug\net7.0\003.genruntimeconfig.cache
 D:\DZ\DZ1\003\obj\Debug\net7.0\ref\003.dll
+D:\GITHub Repo\DZ\DZ1\003\bin\Debug\net7.0\003.exe
+D:\GITHub Repo\DZ\DZ1\003\bin\Debug\net7.0\003.deps.json
+D:\GITHub Repo\DZ\DZ1\003\bin\Debug\net7.0\003.runtimeconfig.json
+D:\GITHub Repo\DZ\DZ1\003\bin\Debug\net7.0\003.dll
+D:\GITHub Repo\DZ\DZ1\003\bin\Debug\net7.0\003.pdb
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.csproj.AssemblyReference.cache
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.GeneratedMSBuildEditorConfig.editorconfig
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.AssemblyInfoInputs.cache
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.AssemblyInfo.cs
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.csproj.CoreCompileInputs.cache
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.dll
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\refint\003.dll
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.pdb
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\003.genruntimeconfig.cache
+D:\GITHub Repo\DZ\DZ1\003\obj\Debug\net7.0\ref\003.dll
