@@ -1,6 +1,4 @@
-﻿
-
-Console.WriteLine("Введите число:");
+﻿Console.WriteLine("Введите число:");
 int number = int.Parse(Console.ReadLine() ?? "");
 int i = 1;
 bool no = true;
