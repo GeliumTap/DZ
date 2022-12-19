@@ -3,9 +3,10 @@
 
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine() ?? "");
-int amount = number.ToString().Length;
+//int amount = number.ToString().Length;
 
-if (amount < 3 || amount != 3)
+if (number <= 99 || number >= 1000)
+//if (amount < 3 || amount > 3)
 {
     Console.WriteLine("No");
 }

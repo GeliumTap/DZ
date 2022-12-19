@@ -21,7 +21,6 @@ int MakeArray(int a, int b)
         {
             c = c * 10;
         }
-
         result = (a / c) % 10;
     }
     return result;
