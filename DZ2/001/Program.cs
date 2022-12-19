@@ -2,8 +2,8 @@
 показывает вторую цифру этого числа.*/
 
 var rnd = new Random();
-int num = rnd.Next(100, 1000);
+int num = rnd.Next(-10, 1000);
 
-Console.WriteLine($"{num} -> {num / 10 % 10} ");
+Console.WriteLine($"{num} -> {num / 10 % 10 } ");
 
 Console.WriteLine();
