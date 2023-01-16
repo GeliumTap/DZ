@@ -1,6 +1,6 @@
 ﻿int[] mass = new int[8];
 
-Console.Write($"{Array} -> [");
+Console.Write("[");
 
 for (int i = 0; i < mass.Length; i++)
 {
