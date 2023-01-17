@@ -13,7 +13,8 @@
 *.pptx
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+Lec4
+Sem5
 # Mono auto generated files
 mono_crash.*
 
