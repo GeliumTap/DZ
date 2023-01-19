@@ -1,16 +1,26 @@
-﻿int enterNumberA, enterNumberB;
+﻿/* Задача 25:
+Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+3, 5 -> 243 (3⁵);   2, 4 -> 16   */
 
-Console.WriteLine("Для формулы A^B");
-Console.Write("Введите число A: ");
-enterNumberA = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число B: ");
-enterNumberB = Convert.ToInt32(Console.ReadLine());
+int numA = ReadInt("Enter a Number: ");
+int numB = ReadInt("Enter the Degree: ");
+ToDegree(numA, numB);
 
-result = enterNumberA;
 
-for (int i = 2; i <= enterNumberB; i++)
+// Функция возведения в степень
+void ToDegree(int a, int b)
 {
-    result *= enterNumberA;
+    int result = 1;
+    for (int i = 1; i <= b; i++)
+    {
+        result = result * a;
+    }
+    Console.WriteLine(a + "^" + b + " = " + result);
 }
 
-Console.WriteLine($"{enterNumberA}^{enterNumberB} = {result}");
+// Функция ввода
+int ReadInt(string message)
+{
+    Console.WriteLine(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
