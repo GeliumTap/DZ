@@ -5,7 +5,7 @@ Console.Clear();
 
 //_____________________________________Запрос у пользователя______________________
 
-int num = ReadInt("Введите число: ");
+int num = ReadInt("Enter a Number: ");
 int len = NumLen(num);
 SumNumb(num, len);
 

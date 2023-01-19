@@ -1,57 +1,25 @@
-﻿//Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+﻿/* Задача 29 Напишите программу, которая задаёт массив из N элементов и выводит их на экран.
+5 -> [1, 2, 5, 7, 19]; 3 -> [6, 1, 33] */
 
-/*
-Console.WriteLine("Массив длиной A в диапвзоне 0-A");
-Console.Write("Введите любое число (A): ");
-int Array = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
 
-int[] array = new int[Array];
+//_____________________________________Запрос у пользователя______________________
 
-Console.Write("[");
+int lenArray = ReadInt("Enter the length of the array: ");
 
-for (int i = 0; i < Array; i++)
+Console.Write($"{lenArray} -> [");
+int[] randomArray = new int[lenArray];
+for (int i = 0; i < randomArray.Length; i++)
 {
-    array[i] = new Random().Next(Array+1);
-    Console.Write($"{array[i]}.");
+    randomArray[i] = new Random().Next(1, 9);
+    Console.Write($" {i}");
 }
 
-Console.Write("]");
-*/
+Console.Write(" ]");
 
-
-
-
-
-/*
-int[] mass = new int[8];
-
-Console.Write("[");
-
-for (int i = 0; i < mass.Length; i++)
+//_____________________________________Ввод_______________________________________
+int ReadInt(string message)
 {
-    mass[i] = new Random().Next(1, 9);
-    Console.Write(" " + Method(i) + "");
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
 }
-Console.Write("]");
-
-int Method(int a)
-{
-    return mass[a];
-}
-*/
-
-Console.WriteLine("Будет создан массив длиной A в диапвзоне 0-A");
-Console.Write("Введите любое число (A): ");
-int enterNumber = Convert.ToInt32(Console.ReadLine());
-
-int[] array = new int[enterNumber];
-
-for (int i = 0; i < enterNumber; i++)
-{
-    array[i] = new Random().Next(enterNumber + 1);
-    Console.Write(array[i] + "; ");
-}
-Console.WriteLine();
-
-//Вариант вывода вне цикла:
-//Console.WriteLine($"[{String.Join("; ", array)}]");
