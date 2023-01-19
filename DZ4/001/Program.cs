@@ -4,7 +4,7 @@
 
 Console.Clear();
 
-//____________________________________Возведения в степень_______________________
+//____________________________________Возведения в степень________________________
 
 void Degree(int a, int b)
 {
@@ -22,6 +22,8 @@ int ReadInt(string message)
     Console.WriteLine(message);
     return Convert.ToInt32(Console.ReadLine());
 }
+
+//_____________________________________Запрос у пользователя______________________
 
 int numA = ReadInt("Enter a Number: ");
 int numB = ReadInt("Enter the Degree: ");
