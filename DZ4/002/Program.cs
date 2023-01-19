@@ -1,13 +1,16 @@
 ﻿/* Задача 27 Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 452 -> 11;  82 -> 10;  9012 -> 12   */
 
-int number = ReadInt("Введите число: ");
+Console.Clear();
 
-int len = NumberLen(number);
-SumNumbers(number, len);
+//_____________________________________Запрос у пользователя______________________
 
-// Функция подсчета цифр в числе
-int NumberLen(int a)
+int num = ReadInt("Введите число: ");
+int len = NumLen(num);
+SumNumb(num, len);
+
+//_____________________________________Подсчета цифр в числе______________________
+int NumLen(int a)
 {
     int index = 0;
     while (a > 0)
@@ -18,8 +21,8 @@ int NumberLen(int a)
     return index;
 }
 
-// Функция вывода суммы цифр в числе
-void SumNumbers(int n, int len)
+//_____________________________________Вывод cуммы цифр в числе___________________
+void SumNumb(int n, int len)
 {
     int sum = 0;
     for (int i = 1; i <= len; i++)
@@ -27,10 +30,10 @@ void SumNumbers(int n, int len)
         sum += n % 10;
         n /= 10;
     }
-    Console.WriteLine($"сумма цифр {sum}");
+    Console.WriteLine($"{num} -> {sum}");
 }
 
-// Функция ввода
+//_____________________________________Ввод_______________________________________
 int ReadInt(string message)
 {
     Console.Write(message);
