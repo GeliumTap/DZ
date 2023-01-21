@@ -5,6 +5,8 @@
 0, 7, 8, -2, -2 -> 2    1, -7, 567, 89, 223 -> 4
 */
 
+//_____________________________________Запрос у пользователя______________________
+
 Console.WriteLine("Comma-separated numbers: ");
 string input = Console.ReadLine();
 int result = 0;
