@@ -42,17 +42,17 @@ int ReadInt(string message)
 //_____________________________________Запрос у пользователя______________________
 
 int size = ReadInt("Array Size: ");
-int[] numbers = new int[size];
+int[] num = new int[size];
 
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
+FillArrayRandomNumbers(num);
+PrintArray(num);
 int result = 0;
 
 //_____________________________________Результат__________________________________
 
-for (int i = 0; i < numbers.Length; i++)
+for (int i = 0; i < num.Length; i++)
 {
-    if (numbers[i] % 2 == 0)
+    if (num[i] % 2 == 0)
     {
         result++;
     }

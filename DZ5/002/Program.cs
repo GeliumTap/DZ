@@ -10,19 +10,19 @@
 int size = ReadInt("Array Size: ");
 int min = ReadInt("Minimum number of the array: ");
 int max = ReadInt("Maximum array number: ");
-int[] numbers = new int[size];
+int[] num = new int[size];
 
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
+FillArrayRandomNumbers(num);
+PrintArray(num);
 int result = 0;
 
 //_____________________________________Результат__________________________________
 
-for (int i = 0; i < numbers.Length; i++)
+for (int i = 0; i < num.Length; i++)
 {
     if (i % 2 != 0)
     {
-        result += numbers[i];
+        result += num[i];
     }
 }
 Console.WriteLine($"Odd positions = {result}");
