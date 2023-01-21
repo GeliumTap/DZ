@@ -17,6 +17,8 @@ double k2 = ReadInt("Enter k2: ");
 double fit = (b1 - b2) / (k2 - k1);
 double two = (k2 * fit) + b2;
 
+Console.Clear();
+
 Console.WriteLine($"b1 = {b1}, k1 = {k1}, b2 = {b2}, k2 = {k2} -> ({fit}; {two})");
 
 //_____________________________________Ввод________________________________________
