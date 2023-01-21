@@ -14,10 +14,16 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 Lec4
+Lec5
+Lec6
+Lec7
+Lec8
 Sem3
 Sem4
 Sem5
 Sem6
+Sem7
+Sem8
 # Mono auto generated files
 mono_crash.*
 
