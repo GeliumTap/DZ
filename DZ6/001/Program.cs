@@ -9,8 +9,10 @@ Console.WriteLine("Comma-separated numbers: ");
 string input = Console.ReadLine();
 int result = 0;
 
-int[] numbers = ParseStringToArray(input);
-PrintArray(numbers);
+Console.Clear();
+
+int[] num = ParseStringToArray(input);
+PrintArray(num);
 
 int[] ParseStringToArray(string input)
 {
@@ -62,9 +64,9 @@ void PrintArray(int[] array)
     Console.Write($"] -> ");
 }
 
-for (int i = 0; i < numbers.Length; i++)
+for (int i = 0; i < num.Length; i++)
 {
-    if (numbers[i] > 0)
+    if (num[i] > 0)
         result++;
 }
 
