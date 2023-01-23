@@ -4,7 +4,7 @@
 14212 > нет;  12821 -> да; 23432 -> да    */
 
 Console.WriteLine ("Введите пятизначное число: ");
-string number = Console.ReadLine();
+string number = Console.ReadLine() ?? "";
 int len = number.Length;
 
 if (len == 5)

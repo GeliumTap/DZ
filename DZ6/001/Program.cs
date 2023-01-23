@@ -8,7 +8,7 @@
 //_____________________________________Запрос у пользователя______________________
 
 Console.WriteLine("Comma-separated numbers: ");
-string input = Console.ReadLine();
+string input = Console.ReadLine() ?? "";
 int result = 0;
 
 Console.Clear();
