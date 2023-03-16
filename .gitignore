@@ -36,6 +36,7 @@ Sem8
 Sem9
 Sem10
 *.gitignore
+*.vscode
 Databases_S1
 Databases_S2
 Databases_S3
