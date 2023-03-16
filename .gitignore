@@ -7,6 +7,7 @@
 Конспект с таймкодами. Как не нужно писать код. Принципы и антипаттерны.pdf
 
 # User-specific files
+*.folder
 *.rsuser
 *.suo
 *.user
@@ -16,6 +17,9 @@
 *.pptx
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+Lec1
+Lec2
+Lec3
 Lec4
 Lec5
 Lec6
@@ -28,7 +32,8 @@ Sem6
 Sem7
 Sem8
 Sem9
-DZ8/005
+Sem10
+*.gitignore
 # Mono auto generated files
 mono_crash.*
 
