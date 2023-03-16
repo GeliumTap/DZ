@@ -15,6 +15,7 @@
 *.sln.docstates
 *.txt
 *.pptx
+*.pdf
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 Lec1
